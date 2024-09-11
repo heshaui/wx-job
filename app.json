@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/company/list/index",
+    "pages/company/detail/index",
+    "pages/job/detail/index",
+    "pages/job/list/index",
+    "pages/message/detail/index",
+    "pages/message/list/index",
+    "pages/mine/favorites/index",
+    "pages/mine/footprints/index",
+    "pages/mine/membership/index",
+    "pages/mine/personal/index",
+    "pages/mine/recommendations/index",
+    "pages/mine/resume/index",
+    "pages/mine/subscriptions/index"
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FF5F15",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/company/list/index",
+        "text": "企业"
+      },
+      {
+        "pagePath": "pages/job/list/index",
+        "text": "职位"
+      },
+      {
+        "pagePath": "pages/message/list/index",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/mine/personal/index",
+        "text": "我的"
+      }
+    ]
+  },
+ "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WOW",
+    "navigationBarTextStyle": "black"
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-icon": "tdesign-miniprogram/icon/icon"
+  }
+}

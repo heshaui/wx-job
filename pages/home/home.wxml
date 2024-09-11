@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml.wxml-->
+<view>
+	<t-icon name="home" size="48rpx" />
+	<t-button>测试td</t-button>
+</view>
